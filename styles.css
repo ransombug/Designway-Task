@@ -1,0 +1,90 @@
+#navandheader {
+  background-image: url("./Images/hero.png");
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav li a {
+  color: white;
+}
+
+.list-unstyled li a {
+  color: white;
+  font-size: small;
+}
+
+#header-row {
+  text-align: right;
+  margin: 8px 0 8px 0;
+  padding: 20px;
+}
+
+#header-text {
+  text-align: left justify;
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+#header-texts {
+  text-align: center;
+  margin: 10px;
+  color: black;
+}
+
+#head1 {
+  text-align: center;
+  padding: 60px;
+}
+
+#header-button {
+  text-align: center;
+  margin: 10px;
+}
+
+#spa {
+  background-color: red;
+  padding-bottom: 5px;
+}
+
+#off {
+  color: red;
+}
+
+#offer {
+  background-image: url("./Images/bg.png");
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: bottom 10px;
+}
+
+#different {
+  background-image: url("./Images/diff-bg.png");
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.diff {
+  text-align: center;
+  padding: 50px;
+  margin-top: -60px;
+}
+
+.foot {
+  text-align: justify;
+  padding: 50px;
+}
+
+.page-footer {
+  background-color: rgb(61, 36, 36);
+}
+
+.porimage {
+  margin-left: 5px;
+}
