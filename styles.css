@@ -1,5 +1,6 @@
 #navandheader {
   background-image: url("./Images/hero.png");
+  height: 600px;
   padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,6 +9,11 @@
 
 .nav li a {
   color: white;
+}
+
+.nav li a:hover {
+  background-color: white;
+  color: black;
 }
 
 .list-unstyled li a {
@@ -26,6 +32,13 @@
   text-align: center;
   margin: 10px;
   color: white;
+  margin-top: 120px;
+}
+
+#header-text h1 {
+  text-align: left;
+  font-size: 50px;
+  line-height: 1.4;
 }
 
 #header-texts {
@@ -40,8 +53,14 @@
 }
 
 #header-button {
-  text-align: center;
+  text-align: left;
   margin: 10px;
+}
+
+#header-button button {
+  color: red;
+  padding: 4px;
+  font-weight: bold;
 }
 
 #spa {
@@ -53,13 +72,55 @@
   color: red;
 }
 
-#offer {
-  background-image: url("./Images/bg.png");
-  padding: 20px;
+/* Pricing cards */
+#pricing {
+  margin-top: 100px;
+}
+
+#pricing .card-group {
+  width: 100%;
+}
+
+#pricing .card {
+  height: 350px;
+  box-shadow: 0 0 7px 0px rgb(238 5 5);
+}
+
+#pricing-cards .card:hover {
+  background-color: red;
+  color: white;
+  position: relative;
+  top: -50px;
+  height: 400px;
+}
+
+#pricing-cards .card:hover button {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+
+#pricing-cards {
+  background-image: url(images/pricing-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-position-y: bottom 10px;
+}
+
+/* Pricing cards Ends */
+
+#porta {
+  margin: 150px 0px;
+}
+
+#header-row-offer {
+  background-image: url("./Images/_Image1.png"), url(images/bg.png);
+  height: 700px;
+  margin-top: 50px;
+  width: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: inherit, center;
 }
 
 #different {

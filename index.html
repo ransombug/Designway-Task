@@ -23,240 +23,229 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="main-container">
-        <section id="navandheader">
-            <div>
-                <!-- Beginning of Navbar -->
-                <div id="navs">
-                    <nav class="navbar">
-                        <img src="./Images/logo.png" alt="header" />
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavbar">
-                            <img src="./images/Menu.png" alt="" />
+    <!-- <div class="container-fluid" id="main-container"> -->
+    <section id="navandheader">
+        <div class="container pt-3">
+            <!-- Beginning of Navbar -->
+            <div id="navs">
+                <nav class="navbar">
+                    <img src="./Images/logo.png" alt="header" />
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- navbar-nav nav-pills mx-auto -->
+
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a data-toggle="pill" class="nav-link" href="#banner">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-toggle="pill" class="nav-link" href="#banner">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-toggle="pill" class="nav-link" href="#portal">The Portal</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End of Navbar -->
+
+            <div class="row" id="header-row">
+                <div class="col col-lg-6">
+                    <!-- Text division -->
+                    <div id="header-text">
+                        <h1>
+                            We Improve the,<br />
+                            <span class="bg-danger text-white">efficiency</span> of your<br />
+                            financial plans
+                        </h1>
+                    </div>
+                    <!-- Text division ends -->
+
+                    <div id="header-button">
+                        <button type="button" class="btn btn-light">
+                            Go to the Portal
                         </button>
-
-                        <!-- navbar-nav nav-pills mx-auto -->
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a data-toggle="pill" class="nav-link" href="#banner">How it works</a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-toggle="pill" class="nav-link" href="#banner">About us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-toggle="pill" class="nav-link" href="#portal">The Portal</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    </div>
                 </div>
-                <!-- End of Navbar -->
+            </div>
+        </div>
+        <!-- End of Nav and Header -->
+    </section>
 
-                <div class="row" id="header-row">
-                    <div class="col col-lg-6">
-                        <!-- Text division -->
-                        <div id="header-text">
-                            <h1>
-                                We Improve the,<br />
-                                <span class="bg-danger text-white">efficiency</span> of
-                                your<br />
-                                financial plans
-                            </h1>
+    <!-- Beginning of section 2 -->
+
+    <section id="offer">
+        <div>
+            <h3 id="head1">
+                <b>Who we are and what we <span id="off">offer</span></b>
+            </h3>
+
+            <div class="row" id="header-row-offer">
+                <div class="col col-lg-6">
+                    <!-- Text division -->
+                    <div id="header-texts">
+                        <p>
+                            We offer a unique preplanning service to improve the
+                            efficiency<br />
+                            of your financial planning process.
+                        </p>
+                        <br />
+                        <p>
+                            With our fixed price model and fast tirnaround times, we aim to
+                            <br />
+                            provide a transparent and convenient service to Financial<br />
+                            advisers across the UK.
+                        </p>
+                    </div>
+                    <!-- Text division ends -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of section 2 -->
+
+    <!-- Beginning of section 3 -->
+
+    <section id="different" class="m-5">
+        <div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col col-lg-12">
+                            <h2 class="diff">Why are we different</h2>
                         </div>
-                        <!-- Text division ends -->
+                    </div>
+                </div>
 
-                        <div id="header-button">
-                            <button type="button" class="btn btn-light">
-                                Go to the Portal
+                <div class="col col-lg-12">
+                    <div class="row">
+                        <div class="col col-lg-4 col-md-6 col-sm-12">
+                            <img src="./Images/low-price-icon.png" alt="" />
+                            <h4>Low, Fixed Price fees</h4>
+                            <p>
+                                The price of each report is fixed and <br />
+                                at a very competitive price.
+                            </p>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 col-sm-12">
+                            <img src="./Images/fast-turnaround-icon.png" alt="" />
+                            <h4>Fast turnaround times</h4>
+                            <p>
+                                We guarantee a turnaround time of<br />
+                                two days for each report.
+                            </p>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 col-sm-12">
+                            <img src="./Images/simple-icon.png" alt="" />
+                            <h4>Simple Process</h4>
+                            <p>
+                                Our advisor portal is a simple system<br />
+                                to submit and receive reports, just to<br />
+                                make your life as easy as possible.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of section 3 -->
+    </section>
+
+    <!-- Beginning of section 4 -->
+    <div id="returns">
+        <div class="row">
+            <div class="col col-lg-6">
+                <img style="float: right" src="./Images/illustration.png" alt="Illustration" />
+            </div>
+            <div class="col col-lg-6">
+                <h3>
+                    How can we help you<br />
+                    get <span id="off">better returns</span>
+                </h3>
+                <p>
+                    We offer a unique pre planing service to improve the<br />efficiency
+                    of your financial planning process
+                </p>
+
+                <p>
+                    With our fixed-price model and fast turnaround times,<br />we aim to
+                    provide a transparent and convenient service<br />
+                    to financial advisers across the UK.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End of section 4 -->
+    <!-- </div> -->
+
+    <!-- Beginning of section 5 -->
+    <div id="pricing">
+        <div class="diff">
+            <h3><b>Pricing</b></h3>
+            <p>
+                You can also <a href="" id="off">download</a> a summary of all our
+                prices
+            </p>
+        </div>
+
+        <div class="container" id="pricing-cards">
+            <div class="row" style="padding: 60px 0px">
+                <div class="card-group">
+                    <div class="card box-shadow">
+                        <div class="card-body">
+                            <img src="./Images/pricing-01-icon.png" alt="" width="50px" height="50px" />
+
+                            <h1 class="pt-3"><b>$29 </b></h1>
+                            <p class="text-muted">ONWARDS</p>
+                            <p class="pt-3">Increment <br />Letters</p>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-danger">
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card box-shadow">
+                        <div class="card-body">
+                            <img src="./Images/pricing-02-icon.png" alt="" width="50px" height="50px" />
+
+                            <h1 class="pt-3"><b>$39 </b></h1>
+                            <p class="text-muted">ONWARDS</p>
+                            <p class="pt-3">Withdrawal <br />Letters</p>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-danger">
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card box-shadow">
+                        <div class="card-body">
+                            <img src="./Images/pricing-03-icon.png" alt="" width="50px" height="50px" />
+
+                            <h1 class="pt-3"><b>$29 </b></h1>
+                            <p class="text-muted">ONWARDS</p>
+                            <p class="pt-3">New Business <br />Letters</p>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-danger">
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card box-shadow">
+                        <div class="card-body">
+                            <img src="./Images/pricing-04-icon.png" alt="" width="50px" height="50px" />
+
+                            <h1 class="pt-3"><b>$59 </b></h1>
+                            <p class="text-muted">ONWARDS</p>
+                            <p class="pt-3">Transfer <br />Letters</p>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-danger">
+                                Learn more
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End of Nav and Header -->
-        </section>
-
-        <!-- Beginning of section 2 -->
-        <section id="offer" class="m-5">
-            <div>
-                <h3 id="head1">
-                    <b>Who we are and what we <span id="off">offer</span></b>
-                </h3>
-
-                <div class="row" id="header-row">
-                    <div class="col col-lg-6">
-                        <!-- Text division -->
-                        <div id="header-texts">
-                            <p>
-                                We offer a unique preplanning service to improve the
-                                efficiency<br />
-                                of your financial planning process.
-                            </p>
-                            <br />
-                            <p>
-                                With our fixed price model and fast tirnaround times, we aim
-                                to
-                                <br />
-                                provide a transparent and convenient service to Financial<br />
-                                advisers across the UK.
-                            </p>
-                        </div>
-                        <!-- Text division ends -->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- End of section 2 -->
-
-        <!-- Beginning of section 3 -->
-
-        <section id="different" class="m-5">
-            <div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col col-lg-12">
-                                <h2 class="diff">Why are we different</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col col-lg-12">
-                        <div class="row">
-                            <div class="col col-lg-4 col-md-6 col-sm-12">
-                                <img src="./Images/low-price-icon.png" alt="" />
-                                <h4>Low, Fixed Price fees</h4>
-                                <p>
-                                    The price of each report is fixed and <br />
-                                    at a very competitive price.
-                                </p>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-sm-12">
-                                <img src="./Images/fast-turnaround-icon.png" alt="" />
-                                <h4>Fast turnaround times</h4>
-                                <p>
-                                    We guarantee a turnaround time of<br />
-                                    two days for each report.
-                                </p>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-sm-12">
-                                <img src="./Images/simple-icon.png" alt="" />
-                                <h4>Simple Process</h4>
-                                <p>
-                                    Our advisor portal is a simple system<br />
-                                    to submit and receive reports, just to<br />
-                                    make your life as easy as possible.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End of section 3 -->
-        </section>
-
-        <!-- Beginning of section 4 -->
-        <div id="returns">
-            <div class="row">
-                <div class="col col-lg-6">
-                    <img style="float: right" src="./Images/illustration.png" alt="Illustration" />
-                </div>
-                <div class="col col-lg-6">
-                    <h3>
-                        How can we help you<br />
-                        get <span id="off">better returns</span>
-                    </h3>
-                    <p>
-                        We offer a unique pre planing service to improve the<br />efficiency
-                        of your financial planning process
-                    </p>
-
-                    <p>
-                        With our fixed-price model and fast turnaround times,<br />we aim
-                        to provide a transparent and convenient service<br />
-                        to financial advisers across the UK.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- End of section 4 -->
-    </div>
-
-    <!-- Beginning of section 5 -->
-    <div id="pricing" class="m-4">
-        <div class="diff">
-            <h3><b>Pricing</b></h3>
-            <p>You can also <a href="">download</a> a summary of all our prices</p>
-        </div>
-
-        <div class="row pt-4">
-            <!-- Card 1 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-body">
-                        <img src="./Images/pricing-01-icon.png" alt="" width="50px" height="50px" />
-
-                        <h1><b>$29 </b></h1>
-                        <p class="text-muted">ONWARDS</p>
-                        <p>Increment <br />Letters</p>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-danger">
-                            Learn more
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 1 -->
-
-            <!-- Card 2 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-body">
-                        <img src="./Images/pricing-02-icon.png" alt="" width="50px" height="50px" />
-
-                        <h1><b>$39 </b></h1>
-                        <p class="text-muted">ONWARDS</p>
-                        <p>Withdrawal <br />Letters</p>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-danger">
-                            Learn more
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2 -->
-
-            <!-- Card 3 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-body">
-                        <img src="./Images/pricing-03-icon.png" alt="" width="50px" height="50px" />
-
-                        <h1><b>$29 </b></h1>
-                        <p class="text-muted">ONWARDS</p>
-                        <p>New Business <br />Letters</p>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-danger">
-                            Learn more
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3 -->
-
-            <!-- Card 4 -->
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-body">
-                        <img src="./Images/pricing-04-icon.png" alt="" width="50px" height="50px" />
-
-                        <h1><b>$59 </b></h1>
-                        <p class="text-muted">ONWARDS</p>
-                        <p>Transfer <br />Letters</p>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-danger">
-                            Learn more
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 4 -->
         </div>
     </div>
     <!-- End of section 5 -->
@@ -355,6 +344,7 @@
 
     <!-- End of Footer -->
 
+    <!-- </div> -->
     <!-- End of Fluid Container -->
 </body>
 
